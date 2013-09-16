@@ -5,7 +5,7 @@
 **注意：** 1. 只接收微信的文字消息 2.把 key 替换成自己申请的 key 3.回复规则里植入广告太多，大家注意甄别 = =
 
     var http = require('http'),
-        wechat = require('node-wechat')
+        wechat = require('node-wechat'),
         request = require('request');
 
     http.createServer(function (req, res) {
